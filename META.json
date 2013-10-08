@@ -4,8 +4,10 @@
       "Tokuhiro Matsuno <tokuhirom AAJKLFJEF@ GMAIL COM>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.5.6",
-   "license" : "perl_5",
+   "generated_by" : "Minilla/v0.7.0",
+   "license" : [
+      "perl_5"
+   ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
@@ -70,17 +72,14 @@
    "provides" : {
       "Amon2::MobileJP" : {
          "file" : "lib/Amon2/MobileJP.pm",
-         "version" : "0.10"
+         "version" : "0.11"
       },
       "Amon2::Plugin::Web::MobileAgent" : {
          "file" : "lib/Amon2/Plugin/Web/MobileAgent.pm",
-         "version" : "0.10"
+         "version" : "0.11"
       },
       "Amon2::Plugin::Web::MobileCharset" : {
          "file" : "lib/Amon2/Plugin/Web/MobileCharset.pm"
-      },
-      "Amon2::Setup::Flavor::MobileJP" : {
-         "file" : "lib/Amon2/Setup/Flavor/MobileJP.pm"
       }
    },
    "release_status" : "stable",
@@ -94,7 +93,7 @@
          "web" : "https://github.com/tokuhirom/Amon2-MobileJP"
       }
    },
-   "version" : "0.10",
+   "version" : "0.11",
    "x_contributors" : [
       "tokuhirom <tokuhirom@gmail.com>"
    ]
